@@ -19,14 +19,17 @@ npm install
 Create a `.env` file in the root directory:
 
 ```env
+# Pinterest Account E-Mail
+EMAIL=
+
+# Pinterest Account Password
+PASSWORD=
+
 # Webhook endpoint URL
 WEBHOOK_URL=https://your-webhook-instance.com/endpoint
 
 # Secret token for header authentication
 WEBHOOK_TOKEN=your_secure_token_123
-
-# Optional: Custom Chrome binary path
-# CHROME_BIN=/usr/bin/google-chrome
 ```
 
 ---
@@ -76,9 +79,10 @@ npm run prod -- "https://www.pinterest.com/username/board-name/"
 
 ## ⚙️ Options
 
-| Flag              | Description                                 | Default |
-| `-p, --page-count`| Number of scroll iterations on the page     | `1`     |
-| `--no-headless`   | Runs the browser in visible mode (debugging)| `false` |
+| Flag               | Description                                  | Default |
+|--------------------|----------------------------------------------|----------
+| `-p, --page-count` | Number of scroll iterations on the page      | `1`     |
+| `--no-headless`    | Runs the browser in visible mode (debugging) | `false` |
 
 ---
 
