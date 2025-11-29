@@ -20,10 +20,10 @@ Create a `.env` file in the root directory:
 
 ```env
 # Pinterest Account E-Mail
-EMAIL=
+EMAIL=example@mail.com
 
 # Pinterest Account Password
-PASSWORD=
+PASSWORD=example123
 
 # Webhook endpoint URL
 WEBHOOK_URL=https://your-webhook-instance.com/endpoint
