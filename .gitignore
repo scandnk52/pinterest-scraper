@@ -254,3 +254,6 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+!/.gitignore
+
+package-lock.json
