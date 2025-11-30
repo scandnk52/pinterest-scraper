@@ -21,6 +21,7 @@ export class WebhookClient {
             };
 
             await axios.post(this.webhookURL, payload, {
+                family: 4,
                 headers: {
                     "Content-Type": "application/json",
                     "x-auth-token": this.webhookToken,
@@ -47,6 +48,7 @@ export class WebhookClient {
             }
 
             await axios.post(this.webhookURL, payload, {
+                family: 4,
                 headers: {
                     'Content-Type': 'application/json',
                     'x-auth-token': this.webhookToken
