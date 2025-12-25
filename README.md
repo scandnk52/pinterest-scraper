@@ -26,10 +26,10 @@ EMAIL=example@mail.com
 PASSWORD=example123
 
 # Webhook endpoint URL
-WEBHOOK_URL=https://your-webhook-instance.com/endpoint
+SCRAPER_WEBHOOK_URL=https://your-webhook-instance.com/endpoint
 
 # Secret token for header authentication
-WEBHOOK_TOKEN=your_secure_token_123
+SCRAPER_WEBHOOK_TOKEN=your_secure_token_123
 ```
 
 ---
@@ -38,12 +38,12 @@ WEBHOOK_TOKEN=your_secure_token_123
 
 ### Available Commands
 
-| Command                         | Description                                                              |
-|---------------------------------|--------------------------------------------------------------------------|
-| `npm run start`                 | Runs the tool in development mode.                                       |
-| `npm run build`                 | Compiles TypeScript into JavaScript (`dist/` folder).                    |
-| `npm run prod -- <args>`        | Runs the compiled version. Recommended for production.                   |
-| `npm run build:start -- <args>` | Compiles and immediately runs the tool.                                  |
+| Command                         | Description                                            |
+| ------------------------------- | ------------------------------------------------------ |
+| `npm run start`                 | Runs the tool in development mode.                     |
+| `npm run build`                 | Compiles TypeScript into JavaScript (`dist/` folder).  |
+| `npm run prod -- <args>`        | Runs the compiled version. Recommended for production. |
+| `npm run build:start -- <args>` | Compiles and immediately runs the tool.                |
 
 ---
 
@@ -80,7 +80,7 @@ npm run prod -- "https://www.pinterest.com/username/board-name/"
 ## ⚙️ Options
 
 | Flag               | Description                                  | Default |
-|--------------------|----------------------------------------------|----------
+| ------------------ | -------------------------------------------- | ------- |
 | `-p, --page-count` | Number of scroll iterations on the page      | `1`     |
 | `--no-headless`    | Runs the browser in visible mode (debugging) | `false` |
 
