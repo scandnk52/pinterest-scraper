@@ -2,6 +2,10 @@
 
 A TypeScript-based CLI tool to scrape Pinterest images and securely send them to a webhook.
 
+## Credits and License
+
+This project is a modified version of [Pinterest-Scraper](https://github.com/Bes-js/Pinterest-Scraper)
+
 ## 🛠️ Installation
 
 ### 1. Clone & Install
